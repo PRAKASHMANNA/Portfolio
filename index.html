@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Prakash Manna — portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <a class="logo" href="#home">Prakash Manna</a>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero container">
+        <div class="hero-left">
+          <h1>Hi, I'm <span class="accent">Prakash Manna</span></h1>
+          <p class="subtitle">
+            Full Stack Java Developer — with good knowledge frontend & backend
+            technologies.
+          </p>
+          <div class="cta-row">
+            <a class="btn primary" href="#projects">View Portfolio</a>
+            <a class="btn ghost" href="#contact">Contact Me</a>
+          </div>
+          <ul class="quick-info">
+            <li>
+              <strong>Email:</strong>
+              <a
+                href="https://mail.google.com/mail/?view=cm&to=Prakashmanna33@gmail.com&su=Portfolio%20Inquiry&body=Hi%20Prakash,"
+                target="_blank"
+              >
+                Prakashmanna33@gmail.com
+              </a>
+            </li>
+            <li>
+              <strong>Phone:</strong>
+              <a href="tel:+917008624072">+91 7008624072</a>
+            </li>
+            <li>
+              <strong>LeetCode:</strong>
+              <a href="https://leetcode.com/u/prakashmanna/" target="_blank"
+                >prakashmanna</a
+              >
+            </li>
+            <li>
+              <strong>Linkedln:</strong>
+              <a href="https://www.linkedin.com/in/prakash-manna-0844b1224" target="_blank"
+                >prakashmanna-linkedln</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <aside class="hero-right">
+          <div class="profile-card">
+            <img src="Image1.jpg" alt="Prakash Manna"  />
+            <h3>Prakash Manna</h3>
+            <p>Full Stack Java Developer</p>
+          </div>
+        </aside>
+      </section>
+      <section id="about" class="section container">
+        <h2>About</h2>
+        <p>
+          I'm a Full Stack Java Developer with strong knowledge in frontend and
+          backend technologies.I use it more and focus on the front end with reactjs. 
+        </p>
+        <h4>Education</h4>
+        <ul>
+          <li>B.Tech (Civil Engineering) — IGIT Sarang (2022)</li>
+          <li>Full Stack Java Developer Course — Completed Aug 2025</li>
+        </ul>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section container">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li>Java / Advanced Java</li>
+          <li>JavaScript</li>
+          <li>Spring Boot</li>
+          <li>React.js</li>
+          <li>Angular</li>
+          <li>AWS (S3, EC2, IAM)</li>
+          <li>SQL</li>
+          <li>HTML / CSS / Bootstrap</li>
+          <li>Git, GitHub, GitLab</li>
+        </ul>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>E-Commerce Website</h3>
+            <p>
+              ReactJS based e-commerce site with product filtering, search and
+              cart functionality.
+            </p>
+            <h4 class="h4">
+              Details
+            </h4>
+            <p class="p">ReactJS e-commerce site with product filtering, search, and cart functionality.</p>
+            <p class="p"><span class="bold">skills:</span>React.js, HTML, CSS</p>
+          </div>
+          <div class="project-card">
+            <h3>SecureDocUploader</h3>
+            <p>
+              Spring Boot app to upload & scan documents, store in AWS S3 and
+              extract text.
+            </p>
+            <h4 class="h4">
+              Details
+            </h4>
+            <p class="p">Spring Boot app to upload & scan documents with checking viruses file if someone upload the virus file it will not upload , store in AWS S3 and extract text.</p>
+               <p class="p"> <span class="bold">skills:</span>Spring Boot, AWS S3, ClamAV(docker)</p>
+          </div>
+           <div class="project-card">
+            <h3>ESOP Management System – Microservices Architecture </h3>
+            <p>
+              Microservices-based ESOP (Employee Stock Option Plan) 
+                    system to understand real-world service communication, database design, and messaging systems. 
+            </p>
+            <h4 class="h4">
+              Details
+            </h4>
+            <p class="p">Grant Service (Kafka Producer) to send employee grant data.
+             Allocation Service (Kafka Consumer) to process data and generate allocation numbers (grantNumber/frequency).
+             Implemented Kafka for async communication, MySQL with Spring Data JPA for CRUD, and Eureka for service discovery.</p>
+               <p class="p"> <span class="bold">skills:</span>Spring Boot, spring security, kafka-Microservices</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section container">
+        <h2>Contact</h2>
+        <form onsubmit="submitContact(event)">
+          <input type="text" id="name" placeholder="Your Name" required />
+          <input type="email" id="email" placeholder="Your Email" required />
+          <textarea id="message" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn primary">Send</button>
+        </form>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <p> Prakash Manna | thank you</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
