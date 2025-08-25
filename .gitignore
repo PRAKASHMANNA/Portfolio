@@ -20,6 +20,3 @@ build/
 # Temporary files
 *.tmp
 *.bak
-
-# Personal or sensitive files
-resume.pdf
