@@ -1,0 +1,25 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Node.js dependencies (if any)
+node_modules/
+
+# Build folders (if any)
+dist/
+build/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# Personal or sensitive files
+resume.pdf

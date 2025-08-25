@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.bg-mix {
+    background: url('image6.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed; /* stays fixed while scrolling */
+    min-height: 100%;
+}
+.nav-link:hover{
+    border: 2px solid white;
+    border-radius: 8px;
+    
+    padding: 5px ;
+    
+}
+.text-mix{
+    color: blueviolet;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+.img-custom {
+    width: 100%;
+    
+    height: 450px;
+    object-fit: contain;
+    padding-bottom: 20px;
+}
+.text-skills{
+    color: cadetblue;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+.bg-about{
+    background: linear-gradient(90deg,#dce0d9,#fbf6ef,#ead7c3);
+    /* background-color: #e7e5e3; */
+}
+.bg-skills{
+    background: linear-gradient(45deg,#ebf2fa,#064789, #427aa1);
+    /* background: linear-gradient(45deg,#d9f0ff,#faf0ca,#f4d35e); */
+}
+.bg-projects {
+  background: url('image11.jpg') no-repeat center center;
+  background-size: cover; /* Ensures it covers the whole section */
+  /*background-attachment: fixed;  Adds a subtle parallax effect */
+  padding: 60px 20px; /* More spacious padding */
+  border-radius: 12px; /* Smooth rounded edges */
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3); /* Soft shadow for depth */
+}
+.bg-contact{
+    border: 50px solid #fbe3d9;
+
+    background-color: #f8f4f1;
+}
+.text-contact{
+    color: #ac491b;
+    font-family: serif;
+}
+.bg-h1{
+    background: linear-gradient(45deg,#ebf2fa,#064789, #427aa1);
+}
